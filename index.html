@@ -1,0 +1,123 @@
+<html>
+<head>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="headroom.js"></script>
+
+	<title>Brandon Yuhas</title>
+</head>
+<body>
+	<div class="page-wrap">
+		<header><span class="left">Brandon Yuhas</span><span class="right"><a href="#story-content" id="story">About</a><a href="#projects-content" id="projects">Projects</a><a href="#contact-content" id="contact">Contact</a></span></header>
+
+		<div class="content profile">
+			<img src="profile.png" />
+			<h1>Brandon Yuhas</h1>
+			<h2>Full Stack Web Developer - Technology Enthusiast - <a href="https://coffee-craver.herokuapp.com/" id="coffee">Coffee Aficionado</a></h2>
+		</div>
+
+		<div class="content-container" id="story-container">
+			<div class="content" id="story-content">
+				<h1>About Me</h1>
+				<h2>The Story So Far</h1>
+				<p>After graduating with a Degree in Information Technology at Towson University, I decided to focus my career on what I loved most about technology: building awesome applications! I've spent the last few months studying Web Development skills and best practices at General Assembly while building a portfolio of web applications that I'm proud of. Combining excellent problem solving skills with creativity and inguinity, I build beautiful and functional applications. <p>
+					<br>
+				<h2>Skills</h2>
+				<div class="skill-container">
+					<div class="skill">
+						<h4>Ruby</h4>
+						<img src="ruby.png">
+						<p>
+							Experience with the Ruby on Rails Framework with an emphasis on BDD using RSpec and Capybara!
+						</p>
+					</div>
+					<div class="skill">
+						<h4>JavaScript</h4>
+						<img src="javascript.png">
+						<p>
+							Ajax and top front-end frameworks like Angular and Bootstrap, with a bit of Meteor.js on the side!
+						</p>
+					</div>
+					<div class="skill">
+						<h4>HTML 5</h4>
+						<img src="html5.png">
+						<p>
+							Best Practices in modern HTML, with additional CSS skills to complement!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-container" id="projects-container">
+			<div class="content" id="projects-content">
+				<h1>Projects</h1>
+				<div class="project">
+					<h3>Power-Level</h3>
+					<div class="project-info">
+						<a href="https://power-level.herokuapp.com/"><img src="logo.jpg" /></a>
+						<div class="side">
+							<p><u>Description:</u> A self improvement tracker that provides direction and feedback for improving your skills!</p>
+							<p><u>Technologies Used:</u> Zurb's Foundation, jQuery, Ajax, Ruby on Rails</p>
+							<p><u>Highlights:</u> Setting up an internal API within Rails to allow asynchronous updating of users profiles as they completed quests.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="project">
+					<h3>Cirrus Weather</h3>
+					<div class="project-info">
+						<img src="cirrus.jpg" />
+						<div class="side">
+							<p><u>Description:</u> A weather application that sends SMS notifications based on changing weather conditions!</p>
+							<p><u>Technologies Used:</u> Open Weather API, Twilio API, custom rake tasks, Whenever Ruby Gem, jQuery, Ruby on Rails</p>
+							<p><u>Highlights:</u> Managing different time zones in Ruby to send messages to users once at the same time in the morning.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="project">
+					<h3>Five Second Vacation</h3>
+						<a href="https://five-second-vacation.herokuapp.com/"><div class="project-info">
+							<img src="airplane.png" /> </a>
+							<div class="side">
+								<p><u>Description:</u> A blogging app that sends users on a virtual vacation and allows them to share it with others!</p>
+								<p><u>Technologies Used:</u> Google Places API, Google Geocoder API, Ruby on Rails</p>
+								<p><u>Highlights:</u> Generating a random longitude and latitude to find a real airport, hotel and restaurant to display through Google Places to users.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-container" id="contact-container">
+			<div class="content" id="contact-content">
+				<h1>Contact Me</h1>
+				<h3>Feel free to send me an email at <a href='brandonjyuhas@gmail.com'>brandonjyuhas@gmail.com</a>, or connect with me on social media!</h3>
+				<a href="https://www.github.com/brandonjyuhas"><img src="git.jpg" /></a>
+				<a href="www.github.com/brandonjyuhas"><img src="ga.jpg" /></a>
+				<a href="https://www.linkedin.com/pub/brandon-yuhas/93/759/a96/"><img src="linkedin.jpg" /></a>
+				<a href="https://twitter.com/boohas"><img src="twitter.jpg" /></a>
+				<a href="https://www.facebook.com/brandon.yuhas.9"><img src="facebook.jpg" /></a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="site-footer">
+	  <p>Made with love by Brandon Yuhas(no template needed!)</p>
+	</footer>
+
+
+
+	<script>
+		// grab an element
+		var myElement = document.querySelector("header");
+		// construct an instance of Headroom, passing the element
+		var headroom  = new Headroom(myElement);
+		// initialise
+		headroom.init();
+	</script>
+</body>
+</html>
