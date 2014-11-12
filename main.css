@@ -244,3 +244,89 @@ html, body {
   color: #77E0D8;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Bitter', serif;
+}
+
+@media (max-width: 1030px){
+  .content{
+    width: 100%;
+  }
+  #story-container {
+    margin-top: 150px;
+    height: 1000px;
+    width: 100%;
+  }
+  .skill {
+    display: block;
+    width: 95%;
+  }
+  .skill-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .project {
+    margin-top: 30px;
+  }
+  .project img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  .left {
+    display: none;
+    width: 0%;
+  }
+  .right {
+    width: 100%;
+    text-align: center;
+  }
+  .right a{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .project {
+    margin-top: 50px;
+  }
+  #projects-container {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  #story-container {
+    height: 1050px;
+  }
+}
+
+@media(max-width: 500px){
+  .right a{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+}
+
+@media(max-width: 450px){
+  .right a{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  #story-container {
+    height: 1100px;
+  }
+}
+
+@media(max-width: 400px){
+  .right a{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
