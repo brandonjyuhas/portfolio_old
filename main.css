@@ -330,13 +330,78 @@ p {
   }
 }
 
-@media(max-width: 350px){
+@media(max-width: 385px){
   .right a{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   #story-container {
     height: 1150px;
+  }
+}
+
+@media(max-width: 350px){
+.right a{
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+  #story-container {
+    height: 1200px;
+  }
+  .project {
+    margin-top: 75px;
+  }
+  #projects-container {
+    padding-bottom: 200px;
+  }
+  #contact-container {
+    padding-bottom: 100px
+  }
+}
+
+@media(max-width: 325px){
+  .right a{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  #story-container {
+    height: 1250px;
+  }
+  .project {
+    margin-top: 75px;
+  }
+  #projects-container {
+    padding-bottom: 300px;
+  }
+}
+
+@media(max-width: 300px){
+  .right a{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #story-container {
+    height: 1300px;
+  }
+}
+
+@media(max-width: 285px){
+  .right a{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #story-container {
+    height: 1350px;
+  }
+}
+
+@media(max-width: 270px){
+  .right a{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  #story-container {
+    height: 1400px;
   }
 }
 
