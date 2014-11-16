@@ -330,3 +330,13 @@ p {
   }
 }
 
+@media(max-width: 350px){
+  .right a{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #story-container {
+    height: 1150px;
+  }
+}
+
