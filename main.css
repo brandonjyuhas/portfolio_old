@@ -320,6 +320,10 @@ p {
   #story-container {
     height: 1050px;
   }
+  .right a {
+    padding-left: 8.5%;
+    padding-right: 10%;
+  }
 }
 
 @media(max-width: 500px){
