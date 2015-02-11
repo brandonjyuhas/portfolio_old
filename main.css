@@ -319,6 +319,18 @@ p {
     padding-left: 9%;
     padding-right: 11%;
   }
+  .profile {
+    padding-bottom: 50px
+  }
+  .content-container {
+    padding-bottom: 50px;
+  }
+  #projects-content {
+    margin-top: -5px;
+  }
+  #projects-container {
+    padding-bottom: 150px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -338,6 +350,9 @@ p {
   }
   #story-container {
     height: 1100px;
+  }
+  .project img {
+    height: 125px;
   }
 }
 
