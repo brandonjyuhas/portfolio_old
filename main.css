@@ -270,6 +270,15 @@ p {
   }
 }
 
+@media (max-width: 800px) {
+  .description-dash {
+    color: #2779c5;
+  }
+  .description-line {
+    display: block;
+  }
+}
+
 @media (max-width: 750px) {
   .project {
     margin-top: 30px;
@@ -290,13 +299,20 @@ p {
   }
   .right a{
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 12%;
   }
   .project {
     margin-top: 50px;
   }
   #projects-container {
     padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 600px){
+  .right a {
+    padding-left: 9%;
+    padding-right: 11%;
   }
 }
 
@@ -308,7 +324,7 @@ p {
 
 @media(max-width: 500px){
   .right a{
-    padding-left: 9%;
+    padding-left: 8%;
     padding-right: 9%;
   }
   #story-container {
@@ -318,7 +334,7 @@ p {
 
 @media(max-width: 450px){
   .right a{
-    padding-left: 8%;
+    padding-left: 7%;
     padding-right: 8%;
   }
   #story-container {
@@ -331,7 +347,7 @@ p {
 
 @media(max-width: 400px){
   .right a{
-    padding-left: 7%;
+    padding-left: 6%;
     padding-right: 7%;
   }
   #cirrus {
@@ -350,7 +366,7 @@ p {
 
 @media(max-width: 385px){
   .right a{
-    padding-left: 6.5%;
+    padding-left: 5.5%;
     padding-right: 6.5%;
   }
   #story-container {
@@ -363,8 +379,8 @@ p {
 
 @media(max-width: 350px){
 .right a{
-  padding-left: 5.3%;
-  padding-right: 5.3%;
+  padding-left: 4.7%;
+  padding-right: 4.7%;
   }
   #story-container {
     height: 1250px;
@@ -440,6 +456,7 @@ p {
     height: 1450px;
   }
 }
+
 
 #projects-container a {
   color: white;
