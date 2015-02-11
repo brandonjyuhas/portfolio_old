@@ -300,6 +300,7 @@ p {
   .right a{
     padding-left: 10%;
     padding-right: 12%;
+    padding-bottom: 4px;
   }
   .project {
     margin-top: 50px;
