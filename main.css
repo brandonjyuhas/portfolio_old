@@ -288,7 +288,7 @@ p {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
   .left {
     display: none;
     width: 0%;
